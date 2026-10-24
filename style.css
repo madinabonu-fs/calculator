@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    color: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    
+}
+
+.main-container{
+    background-color: #121212;
+    padding: 20px;
+}
+
+.display{
+    color: white;
+    font-size: 32px;
+    text-align: right;
+    padding: 6px;
+    margin-bottom: 10px;
+    width: 280px;
+    overflow-x: auto;
+
+
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+button:hover{
+    background-color: #2D2D2D;
+    color: white;
+}
+
+.operator{
+    background-color: #2F80ED;
+    color:white;
+}
+
+.operator:hover{
+    background-color: #4B96F3;
+    color: white;
+}
+
+
+.clear{
+    background-color: #333333;
+}
+
+.clear:hover{
+    background-color: #E74C3C;
+}
+
+.delete{
+    background-color: #333333;
+}
+
+.delete:hover{
+    background-color: #E74C3C;
+}
+
+.clear-entry{
+    background-color: #333333;
+}
+
+.clear-entry:hover{
+    background-color: #E74C3C;
+
+}
+
+.equal{
+    background-color: #27AE60;
+}
+
+.equal:hover{
+    background-color: #2ECC71;
+}
+
+
+.all-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+    gap: 10px;
+}
+
+.dark-light{
+    grid-column: span 4;
+}
+
+
+body.lightMode{
+    background-color: #fff;
+}
+
+
+body.lightMode .main-container{
+    background-color: #F5F5F5;
+}
+
+body.lightMode .display{
+    color: #5D4037;
+}
+
+body.lightMode  button{
+    color: #5D4037;
+    background-color: #E0E0E0;
+
+}
+
+body.lightMode  button:hover{
+    background-color: #D6D6D6;
+    color: #5D4037;
+}
+
+body.lightMode .operator{
+    background-color: #F5F0EB;
+    color: #6D4C41; 
+}
+
+body.lightMode .operator:hover{
+    background-color: #EADFD5;
+    color: #5D4037;    
+}
+
+body.lightMode .clear{
+    background-color: #EAEAEA;
+    color: #D32F2F;
+}
+
+body.lightMode .clear:hover{
+    background-color: #EB5757; 
+    color: white; 
+}
+
+body.lightMode .delete{
+    background-color: #EAEAEA; 
+    color: #D32F2F;
+}
+
+body.lightMode .delete:hover{
+    background-color: #EB5757; 
+    color: white; 
+}
+
+body.lightMode .clear-entry{
+    background-color: #EAEAEA; 
+    color: #D32F2F;
+}
+
+body.lightMode .clear-entry:hover{
+    background-color: #EB5757; 
+    color: white; 
+}
+
+body.lightMode .equal{
+    background-color: #8D6E63;;
+    color: white;
+}
+
+body.lightMode .equal:hover{
+    background-color: #795548;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="display">0</div>
+        <div class="all-buttons">
+            <button onclick="showValue('%')" class="operator">%</button>
+            <button onclick="clearEntry()" class="clear-entry">CE</button>
+            <button onclick="clearDisplay()" class="clear">C</button>
+            <button onclick="deleteLast()" class="delete">⌫</button>
+
+            <button onclick="calculateInverse()" class="operator">1/x</button>
+            <button onclick="calculateSquare()" class="operator">x²</button>
+            <button onclick="calculateSqrt()" class="operator">²√x</button>
+            <button onclick="showValue('/')" class="operator">÷</button>
+
+            <button onclick="showValue(7)" class="">7</button>
+            <button onclick="showValue(8)" class="">8</button>
+            <button onclick="showValue(9)" class="">9</button>
+            <button onclick="showValue('*')" class="operator">×</button>
+
+            <button onclick="showValue(4)" class="">4</button>
+            <button onclick="showValue(5)" class="">5</button>
+            <button onclick="showValue(6)" class="">6</button>
+            <button onclick="showValue('-')" class="operator">−</button>
+
+            <button onclick="showValue(1)" class="">1</button>
+            <button onclick="showValue(2)" class="">2</button>
+            <button onclick="showValue(3)" class="">3</button>
+            <button onclick="showValue('+')" class="operator">+</button>
+
+            <button onclick="changeSign()" class="operator">+/-</button>
+            <button onclick="showValue(0)" class="">0</button>
+            <button onclick="showValue('.')" class="operator">.</button>
+            <button onclick="calculate()" class="equal">=</button>
+
+            <button onclick="changeTheme()" class="dark-light">🌚🌝</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
